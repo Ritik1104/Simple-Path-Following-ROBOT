@@ -34,7 +34,7 @@ void loop()
    analogWrite (enB, 0);
   }
 
-  else if(digitalRead(IR1)==LOW && digitalRead(IR2)==LOW)  //IR not on black line
+  else if(digitalRead(IR1)==LOW && digitalRead(IR2)==LOW)  //IR on black line
   {
     //Move both the Motors
     digitalWrite(MotorAip1,HIGH);
